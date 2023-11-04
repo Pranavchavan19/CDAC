@@ -1,0 +1,24 @@
+
+show databases;
+create database Employee;
+use Employee;
+create table emp (id int, name varchar(25),designation varchar(25));
+show tables;
+insert into emp (id,name,designation) values (101,'Pranav','Java Developer');
+select * from emp;
+insert into emp(id,name,designation) values (102,'kanake','c++');
+select * from emp;
+insert into emp(id,name,designation) values (103,'sangrash','c');
+insert into emp(id,name,designation) values (104,'dipali','sql');
+update emp set name="patil" where  id=102 ;
+update emp set id=107 where id= 101;
+update emp  set id = 111 where id=104;
+update emp set designation ="advanced java" where designation='c';
+insert into emp(id,name,designation) values(109,"raman","c++"); 
+insert into emp(id,name,designation) values (110,"jyoti","sf");
+update emp set name ="pallu" where name = "jyoti";
+delete from emp where id=109;
+delete from emp where name="dipali";
+update emp set id=101 where id =107;
+update emp set name ="pritam" where name="patil";
+update emp set name="praju" where name ="sangrash";
