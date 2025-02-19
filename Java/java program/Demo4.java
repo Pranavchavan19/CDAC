@@ -7,7 +7,7 @@ public class Jagged{
      ja[0]={1,2,3,4,5};
      ja[1]={1,2,3};
      ja[2]={1,2,3,4};
-     System.out.print(ja[][]);
+     System.out.println(ja[][]);
 
      
     }
