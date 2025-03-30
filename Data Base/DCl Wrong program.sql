@@ -5,6 +5,9 @@ depId int primary key,
 Name varchar(50) not null
 );
 start transaction;
+
+
+
 select * from department;
 insert into department values(105,"finance");
 update department set name="marketing"where depId=105;
